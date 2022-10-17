@@ -34,7 +34,7 @@ body {
   width: 55%;
   position: relative;
   margin-left: 40px;
-  margin-bottom: 230px;
+  margin-bottom: 250px;
 }
 
 svg{
@@ -45,7 +45,7 @@ svg{
 
 .content-left{
   margin-left: 65px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .content-right{
@@ -54,39 +54,43 @@ svg{
 }
 
 main h1 {
-  font-size: 34px;
+  font-size: 37px;
   color: #031424;
   text-transform: uppercase;
   background: #CF6766;
-  width: 23.3%;
+  width: 20.7%;
   box-shadow: 0px 1px 3px black;
+  padding: 0px 4px;
 }
 
 main h2 {
   font-size: 20px;
   color: white;
-  text-transform: uppercase;
   background: #031424;
-  width: 50%;
+  width: 62%;
   box-shadow: 0px 1px 3px black;
+  text-transform: uppercase;
+  padding: 0px 4px;
 }
 
 main p {
   font-size: 20px;
   color: #031424;
-  text-transform: uppercase;
   background: #CF6766;
-  width: 88%;
+  width: 86%;
   box-shadow: 0px 1px 3px black;
+  text-transform: uppercase;
+  padding: 0px 4px;
 }
 
 main .p2 {
-  font-size: 20px;
+  font-size: 17px;
   color: white;
-  text-transform: uppercase;
   background: #031424;
-  width: 77%;
+  width: 70%;
   box-shadow: 0px 1px 3px black;
+  padding: 0px 4px;
+  text-transform: uppercase;
 }
 
 svg {
@@ -172,9 +176,22 @@ path {
   box-shadow: 0px 1px 2px black;
 }
 
+#FRflag {
+  width: 44px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px black;
+}
+
+#UKRflag {
+  width: 44px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px black;
+}
+
 #UKflag {
   width: 44px;
   box-shadow: 0px 1px 2px black;
+  margin-bottom: 10px;
 }
 
 .country-list {
@@ -184,7 +201,8 @@ path {
   list-style: none;
   height: auto;
   width: 40px;
- margin-top: 30px;
+  margin-top: 30px;
+  margin-left: 500px;
 }
 
 .logo {
@@ -197,3 +215,8 @@ path {
   box-shadow: inset 0px 1px 3px black;
   border-radius: 100%;
 }
+
+.logo:hover{
+  opacity: 0.9;
+}
+
