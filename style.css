@@ -98,8 +98,8 @@ svg {
 }
 
 svg #BE:hover,
-svg #UKR:hover,
 svg #FR:hover,
+svg #UKR:hover,
 svg #SP:hover,
 svg #UK:hover {
   fill: #CF6766;
@@ -164,7 +164,6 @@ path {
   transform: scale(1);
   transform-origin: left;
 }
-
 
 #BEflag {
   width: 44px;
